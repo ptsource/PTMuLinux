@@ -1,0 +1,24 @@
+HOW TO INSTALL IN MULINUX
+==============================
+
+Install a X.gz new command 
+--------------------------
+
+  # gzip -dc X.gz > /usr/bin/X
+
+  # chmod +x /usr/bin/X
+
+Explore a X.tgz archives
+------------------------
+
+  # cp X.tgz /tmp; cd /tmp
+  # gzip -dc X.tgz | tar -xf-
+
+and copy what you need in suitable place, by hand.
+
+Install a patch for muLinux tree
+--------------------------------
+
+  # gzip -dc X.tgz | ( cd /; tar -xvf-)
+
+-M.A.
