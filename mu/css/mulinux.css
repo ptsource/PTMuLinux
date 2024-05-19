@@ -4,6 +4,7 @@ body {
   background-color: #fff;
   font-family: 'Inconsolata', monospace;
   margin:0;
+  overflow-x:hidden
 }
 input,
 select,
@@ -15,7 +16,7 @@ button {
 	margin: 0
 }
 table {
-      max-width:100%;
+      max-width:100%
 }
 
 pre {
@@ -27,7 +28,7 @@ pre {
       */
       white-space: pre-wrap;
       word-wrap: break-word;
-      text-align: justify;
+      text-align: justify
 }
 
 .menuwrap {
@@ -329,9 +330,9 @@ input[type=text] {
     td {
         display:inline-block;
         padding:5px;
-        width:100%;
+        width:100%
     }
     .menuwrap {
-    width:100%;
+       width:100%
     }
 }
