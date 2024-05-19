@@ -20,8 +20,10 @@ table {
 pre {
       max-width:100%;
       font-family: 'Inconsolata', monospace;
+      /*
       background-color: #000;
       color: yellow;
+      */
       white-space: pre-wrap;
       word-wrap: break-word;
       text-align: justify;
