@@ -18,7 +18,7 @@ table {
       max-width:100%;
 }
 pre {
-      max-width:80%;
+      max-width:100%;
       font-family: 'Inconsolata', monospace;
       background-color: #000;
       color: yellow;
