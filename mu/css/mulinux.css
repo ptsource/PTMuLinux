@@ -32,8 +32,8 @@ pre {
 
 .menuwrap {
     align:left; 
-    valign:top; 
-    bgcolor:lightsteelblue;
+    vertical-align:top; 
+     background-color:lightsteelblue;
     width:20%;
     -moz-border-radius:10px;
     -webkit-border-radius:10px;
