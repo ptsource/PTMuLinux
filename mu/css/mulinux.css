@@ -17,6 +17,9 @@ button {
 table {
       max-width:100%;
 }
+pre {
+      max-width:100%;
+}
 .smooth {
 	transition: all .2s
 }
