@@ -341,3 +341,42 @@ input[type=text] {
        width:100%
     }
 }
+
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #202124;
+    color: #333 !important;
+    border-top: 1px solid #DDD;
+    text-align: center;
+    font-size: 80%;
+    display: table;
+    width: 100%;
+    text-align: center;
+    padding: 20px 0 !important
+}
+
+.footer a {
+    color: #f8f8f8 !important;
+    font-size: 20px;
+    text-decoration: none !important
+}
+
+.footer ul {
+    margin: 0 0 0 8% !important;
+    padding: 0 !important
+}
+
+.facircle [class*="fa fa-"] {
+    background-color: #333;
+    border-radius: 50%;
+    color: #fff;
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    margin: auto 1px;
+    width: 40px;
+    font-size: 18px;
+    text-align: center;
+}
