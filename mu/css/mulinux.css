@@ -3,6 +3,7 @@ body {
   background-image: url("../img/muro.gif");
   background-color: #fff;
   font-family: 'Inconsolata', monospace;
+  margin:0;
 }
 input,
 select,
