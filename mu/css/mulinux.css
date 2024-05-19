@@ -1,10 +1,14 @@
-body,
+body {
+  background-image: url("mu/img/muro.gif");
+  background-color: #fff;
+  font: 14px Consolas, monaco, monospace;
+}
+
 textarea,
 input,
 select {
 	background: 0;
 	border-radius: 0;
-	font: 16px Consolas, monaco, monospace;
 	margin: 0
 }
 
