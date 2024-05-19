@@ -1,12 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+* {
+	margin: 0;
+	padding: 0;
+	max-width: 100%;
+}
 body {
   background-image: url("../img/muro.gif");
   background-color: #fff;
-  font: 14px Consolas, monaco, monospace;
+  font-family: 'Inconsolata', monospace;
 }
-
-textarea,
 input,
-select {
+select,
+textarea,
+button {
+	font-family: 'Inconsolata', monospace;
 	background: 0;
 	border-radius: 0;
 	margin: 0
