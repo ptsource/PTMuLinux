@@ -31,12 +31,12 @@ pre {
 }
 
 .menuwrap {
-    align:left; 
+    padding:2px;
+    text-align:left; 
     vertical-align:top; 
      background-color:lightsteelblue;
     width:20%;
     -moz-border-radius:10px;
-    -webkit-border-radius:10px;
     border-radius:10px
 }
 .smooth {
