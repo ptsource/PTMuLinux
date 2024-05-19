@@ -368,9 +368,9 @@ input[type=text] {
 }
 
 .facircle [class*="fa fa-"] {
-    background-color: #b0c4de;
+    background-color: #fff;
     border-radius: 50%;
-    color: #fff;
+    color: #ff8c00;
     display: inline-block;
     height: 40px;
     line-height: 40px;
