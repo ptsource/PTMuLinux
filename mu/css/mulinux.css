@@ -346,9 +346,8 @@ input[type=text] {
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: DarkOrange;
-    color: #333 !important;
-    border-top: 1px solid #DDD;
+    background-color: #ff8c00;
+    color: #fff !important;
     text-align: center;
     font-size: 80%;
     display: table;
