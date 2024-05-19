@@ -22,7 +22,9 @@ pre {
       font-family: 'Inconsolata', monospace;
       background-color: #000;
       color: yellow;
+      white-space: pre-wrap;
       word-wrap: break-word;
+      text-align: justify;
 }
 .smooth {
 	transition: all .2s
