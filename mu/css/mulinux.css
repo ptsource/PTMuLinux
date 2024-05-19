@@ -19,6 +19,7 @@ table {
 }
 pre {
       max-width:100%;
+      font-family: 'Inconsolata', monospace;
 }
 .smooth {
 	transition: all .2s
