@@ -40,6 +40,10 @@ pre {
     -moz-border-radius:10px;
     border-radius:10px
 }
+.img-responsive {
+  width: 100%;
+  height: auto;
+}
 .smooth {
 	transition: all .2s
 }
