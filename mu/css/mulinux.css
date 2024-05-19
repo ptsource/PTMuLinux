@@ -30,6 +30,15 @@ pre {
       word-wrap: break-word;
       text-align: justify
 }
+.shshell {
+      max-width:100%;
+      font-family: 'Inconsolata', monospace;
+      background-color: #000;
+      color: yellow;
+      white-space: pre-wrap;
+      word-wrap: break-word;
+      text-align: justify
+}
 
 .menuwrap {
     padding:5px;
