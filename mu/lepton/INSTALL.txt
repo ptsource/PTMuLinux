@@ -1,0 +1,7 @@
+How to put the image on a floppy disk
+-------------------------------------
+
+A Linux box is required:
+
+	# fdformat /dev/fd0H1722
+	# cat lepton.raw > /dev/fd0H1722
