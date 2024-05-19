@@ -125,9 +125,91 @@
 
 </td>
 <td valign=top width=80%>
+<TABLE border="0" width=100%>
+<TR>
+  <TD bgcolor="DarkOrange">
+    <FONT color="#ffffff" size="+1"> &nbsp Installation Vs Cloning</FONT>
+  </TD>
+</TR>
+</TABLE>
+<p>
 
+
+The word <em>Installation</em> in muLinux should be not used, because muLinux 
+runs primarily in the RAM, booting from a set of floppy disks (base floppy + add-on).
+<br>
+We reserve the word (<i>installation</i>) in order to describe the 
+process where the images you downloaded are transferred to the floppies
+(see: Linux Install, and Dos Install).
+<br>
+Nevertheless, it can be <em>cloned</em> on  permanent media, such an
+hard-disk. <br> 
+In order to <em>clone</em> muLinux in some <i>destination target machine</i>,
+you must follow these steps:
+
+<ul>
+<li>  create your muLinux Floppy Set, in your <i>source machine</i> (Linux, or Win9x)
+<li> take these floppies to the target machine 
+<li> put floppy #1 in the floppy-drive and reboot the target machine, 
+<li> Soon, you will have your mulinux running in RAM. You now have
+the chance to configure it as you like.
+<li> after your get to the UNIX prompt,
+you must type "clone" on the command line, selecting the type of cloning
+you want. In other words: clone transfer the RAM content, AS-IS, to the HD.
+<li> restart your target computer and start muLinux. This is the single floppy
+instance of muLinux, a very basic UNIX system. During this stage, it
+will ask you if you wish to load additional add-on floppies.
+<li> put remaining add-on floppies into the drive, at request.
+</ul>
+
+<br>
+An interesting feature of muLinux is its possibility to be cloned as UMSDOS. In
+this form it is copied in the c:\linux directory, <i>sharing</i> disk space with Win9x.
+Obviously, this applies only if you have DOS/Win9x in the target machine.
+<br>
+If the target machine has no OS in it, standard Linux EXT2 cloning is available: this
+will reformat your hard-disk with the EXT2 Filesystem and use LILO (linux-loader) in order to boot.
 
 <p>
+<TABLE border="0" width=100%>
+<TR>
+  <TD bgcolor="DarkOrange">
+    <FONT face="System" color="#ffffff" size="+1"> &nbsp CD-ROM cloning</FONT>
+  </TD>
+</TR>
+</TABLE>
+<p>
+
+
+Once you have cloned to the HD, you can re-clone it into a different partition, if you
+like, and can also clone it on a CD-ROM (press "clone" and select "CDROM")
+
+<ul>
+<li> Target machine equiped with a burning-device: mulinux can burn it
+<li> Target machine without a burning-device: follow each step and transport
+the resulting ISO image to a different machine. 
+Here a little <a href="burning.html">howto burn</a> a CD-ROM with an 
+El-Torito ISO image.  
+</ul>
+
+<p>
+<TABLE border="0" width=100%>
+<TR>
+  <TD bgcolor="DarkOrange">
+    <FONT face="System" color="#ffffff" size="+1"> &nbsp Direct cloning</FONT>
+  </TD>
+</TR>
+</TABLE>
+<p>
+
+
+This feature is only for Windows installers. After they have followed the
+installation procedure, they can choose to <i>immediately</i> clone in the
+c:\linux directory, skipping the floppy-disk set creation.
+<br>
+This the only case where the word <i>installatiion</i> may apply with the
+usual meaning.
+
 <TABLE border="0" width=100%>
 <TR>
   <TD bgcolor="DarkOrange">
