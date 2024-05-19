@@ -1,9 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
-* {
-	margin: 0;
-	padding: 0;
-	max-width: 100%;
-}
 body {
   background-image: url("../img/muro.gif");
   background-color: #fff;
