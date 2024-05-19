@@ -22,6 +22,7 @@ pre {
       font-family: 'Inconsolata', monospace;
       background-color: #000;
       color: #fff;
+      word-wrap: break-word;
 }
 .smooth {
 	transition: all .2s
