@@ -4,4 +4,4 @@ MuLinux was an Italian, English-language lightweight Linux distribution maintain
 
 # PTMuLinux
 
-MuLinux reborn project
+PTMulinux is a dedicated initiative focused on maintaining and sustaining the legacy of Michele Andreoli's MuLinux project. MuLinux, renowned for its minimalistic design, is a lightweight, flexible Linux distribution that can run on older hardware with limited resources. PTMulinux aims to preserve this valuable piece of open-source history by updating and improving the existing MuLinux codebase, ensuring compatibility with modern systems while retaining its original simplicity and efficiency. The project also emphasizes community engagement, encouraging contributions and support to keep the spirit of MuLinux alive for future generations of users and developers.
