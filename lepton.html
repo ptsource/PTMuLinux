@@ -94,46 +94,33 @@
 </table>
 </td>
 <td valign=top width=80%>
-
-
 <i>
-Leptons: a family of particles consisting of the electron, the muon
-and the tau, along with their neutrinos.
+Leptons: a family of particles consisting of the electron, the muon and the tau, along with their neutrinos.
 </i>
-
 <p>
 <TABLE border="0" width=100%>
 <TR>
-  <TD bgcolor="DarkOrange">
-    <FONT color="#ffffff" size="+1"> &nbsp What is Lepton</FONT>
+  <TD class="titleheader">
+    What is Lepton
   </TD>
 </TR>
 </TABLE>
 <p>
-
-
-
 <table border=0 width=100%>
 <tr align=top>
 <td width="80%">
-<i>Lepton</i> is the temporary name for a single floppy Linux, based on the
-kernel series 2.4.x.  It is
-my lab where I do experiment with the framebuffer device in Linux.
+<i>Lepton</i> is the temporary name for a single floppy Linux, based on the kernel series 2.4.x.  It is my lab where I do experiment with the framebuffer device in Linux.
 </td>
-
 </table>
-
 <p>
 <TABLE border="0" width=100%>
 <TR>
-  <TD bgcolor="DarkOrange">
-    <FONT color="#ffffff" size="+1"> &nbsp Features</FONT>
+  <TD class="titleheader">
+    Features
   </TD>
 </TR>
 </TABLE>
 <p>
-
-
 <ul>
 <li> Floppy disk is formatted 1722k, and it is pure, mountable ext2fs
 <li> Kernel is 2.4.18
@@ -154,19 +141,15 @@ help (hypertextual help), info (system info)
 <li> Screen Saver framebuffer demo, with flying jpeg.
 <li> MEMTEST utility (new).
 </ul>
-
-
 <p>
 <TABLE border="0" width=100%>
 <TR>
-  <TD bgcolor="DarkOrange">
-    <FONT color="#ffffff" size="+1"> &nbsp Bugs</FONT>
+  <TD class="titleheader">
+   Bugs
   </TD>
 </TR>
 </TABLE>
 <p>
-
-
 <ul>
 <li>
 Lepton is not user-configurable (yet). 
@@ -174,37 +157,28 @@ Lepton is not user-configurable (yet).
 preferred keymap with: <code>loadkeys it|us|br|de ... </code>
 <li> Lepton has no memory: it runs in RAM.
 </ul>
-
 <p>
 <TABLE border="0" width=100%>
 <TR>
-  <TD bgcolor="DarkOrange">
-    <FONT color="#ffffff" size="+1"> &nbsp Todo</FONT>
+  <TD class="titleheader">
+    Todo
   </TD>
 </TR>
 </TABLE>
 <p>
-
-
 <ul>
-<li> Remove the ncurses library, writing a sort of wrapping library
-interface versus the framebuffer graphics.
-<li> populate the /usr/doc with a mini-course on UNIX shell and scripting, for
-my students.
+<li> Remove the ncurses library, writing a sort of wrapping library interface versus the framebuffer graphics.
+<li> populate the /usr/doc with a mini-course on UNIX shell and scripting, for my students.
 </ul>
-
-
 <p>
 <TABLE border="0" width=100%>
 <TR>
-  <TD bgcolor="DarkOrange">
-    <FONT color="#ffffff" size="+1"> &nbsp Binaries in the disk </FONT>
+  <TD class="titleheader">
+    Binaries in the disk
   </TD>
 </TR>
 </TABLE>
 <p>
-
-
 <u>From Debian Busybox</u>
 <pre class="shshell">
 agetty    chroot       dmesg       echo     head      login     pidof     rmmod    tar       uptime
@@ -220,9 +194,7 @@ chmod     df           e3vi        gzip     loadkmap  mv        rm        sync  
 chown     dirname      e3ws        halt     logger    nc        rmdir     tail     unix2dos
 init insmod modprobe
 </pre>
-
 <u>From Rustic Busybox</u>
-
 <pre class="shshell">
 ip_broadcast  ip_network  modprobe  msg  scan
 bb         fastdd    fortune    hdparm    ile   mawk    mon     pion      screen_saver  timeout
@@ -230,53 +202,40 @@ chkpasswd  fbppm     fsck.ext2  help      info  md5sum  muawk   poke      setcon
 crypt      fdformat  ftpget     hexd      j2    miterm  muhex   random    setlevel      xopen
 expr       fdisk     gpm        ifconfig  less  mixer   muless  readchar  time
 </pre>
-
-
 <p>
 <TABLE border="0" width=100%>
 <TR>
-  <TD bgcolor="DarkOrange">
-    <FONT color="#ffffff" size="+1"> &nbsp Download Lepton</FONT>
+  <TD class="titleheader">
+    Download Lepton
   </TD>
 </TR>
 </TABLE>
 <p>
-
-
 <a href=mu/lepton/lepton-0r3.raw> here </a>
-
-
 <p>
 <TABLE border="0" width=100%>
 <TR>
-  <TD bgcolor="DarkOrange">
-    <FONT color="#ffffff" size="+1"> &nbsp How to copy Lepton on the floppy disk</FONT>
+  <TD class="titleheader">
+    How to copy Lepton on the floppy disk
   </TD>
 </TR>
 </TABLE>
 <p>
-
-
-<pre>
-	# fdformat /dev/fd0u1722
-	# cat lepton-VERSION.raw > /dev/fd0u1722
-	# sync
+<pre class="shshell">
+# fdformat /dev/fd0u1722
+# cat lepton-VERSION.raw > /dev/fd0u1722
+# sync
 </pre>
 You need Linux, for that. DOS/Win9x users can use muLinux (in this case). 
-
 <TABLE border="0" width=100%>
 <TR>
-  <TD bgcolor="DarkOrange">
-    <FONT color="#ffffff" size="+1"> &nbsp UMLinux Virtual Machine</FONT>
+  <TD class="titleheader">
+    UMLinux Virtual Machine
   </TD>
 </TR>
 </TABLE>
 <p>
-
-
-In this demo, you can see (and use it) mulinux-lepton running in a window,
-in your Netscape environment. To have a 32 bit operating system, such as Linux,
-running in a window isn't a everyday event.
+In this demo, you can see (and use it) mulinux-lepton running in a window, in your Netscape environment. To have a 32 bit operating system, such as Linux, running in a window isn't a everyday event.
 <br>
 The demo uses VNC and <a href="http://www.umlinux.de">UMLinux</a> virtual
 machine, and runs on my desktop Linux computer, at this 
@@ -286,60 +245,35 @@ If my machine is down, you can see some screenshots, below.<br>
 I will keep the demo active for only a short period, because it is
 resource expensive and I do not know how it will behave if used
 by many users simultaneusly! (it runs a single instance OS)
-
 <p>
 <TABLE border="0" width=100%>
 <TR>
-  <TD bgcolor="DarkOrange">
-    <FONT color="#ffffff" size="+1"> &nbsp Screen-shots</FONT>
+  <TD class="titleheader">
+    Screenshots
   </TD>
 </TR>
 </TABLE>
 <p>
-
-
 <ul>
 <li> <a href="mu/img/umlinux/login.png">the muLinux login</a>
 <li> <a href="mu/img/umlinux/info.png">the muLinux 'info' utility</a>
 </ul>
-
 <p>
 <TABLE border="0" width=100%>
 <TR>
-  <TD bgcolor="DarkOrange">
-    <FONT color="#ffffff" size="+1"> &nbsp Download</FONT>
+  <TD class="titleheader">
+    Download
   </TD>
 </TR>
 </TABLE>
 <p>
-
-
-I made an archive with UMlinux+Lepton setup. You can 
-<a href="mu/misc/umlinux.tgz">download</a>
-and run it on your system. 
+I made an archive with UMlinux+Lepton setup. You can <a href="mu/misc/umlinux.tgz">download</a> and run it on your system. 
 <br>
 To run this demo you need
 72Mb free space in /tmp and you must run at least a 2.2.15 Linux kernel.
-
-
-
-
-
-
 </td>
-
-
 </tr>
 </table>
-
-
-
-
-
-
-
-
-
 <td>
 <center>
 <img src=mu/img/vim.png>
